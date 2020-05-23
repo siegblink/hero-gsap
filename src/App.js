@@ -37,7 +37,7 @@ function App() {
       // Set the animation for the headline, paragraph, and button elements.
       animationTimeline
         .staggerFrom(
-          [headlineFirst.children, headLineSecond.children, headLineThird.children,],
+          [headlineFirst.children, headLineSecond.children, headLineThird.children],
           1, { y: 44, ease: Power3.easeOut, delay: 0.8 }, 0.15, 'loadAnimation'
         )
         .from(paragraph, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.4)
