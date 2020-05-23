@@ -1,3 +1,7 @@
+# hero-gsap
+
+This is a demo project that features an animated hero section.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
