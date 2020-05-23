@@ -29,12 +29,7 @@ function App() {
 
       // Set the animation for the image elements.
       animationTimeline
-        .from(
-          womanImage,
-          1.2,
-          { y: 1280, ease: Power3.easeOut },
-          'loadAnimation'
-        )
+        .from(womanImage, 1.2, { y: 1280, ease: Power3.easeOut }, 'loadAnimation')
         .from(womanImage, 2, { scale: 1.6, ease: Power3.easeOut }, 0.2)
         .from(manImage, 1.2, { y: 1280, ease: Power3.easeOut }, 0.2)
         .from(manImage, 2, { scale: 1.6, ease: Power3.easeOut }, 0.2)
